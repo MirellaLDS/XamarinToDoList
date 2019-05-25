@@ -1290,11 +1290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
       "projectName": "ToDoList.Android",
-      "projectPath": "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
+      "projectPath": "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList.Android\\obj\\",
+      "outputPath": "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1315,8 +1315,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
-              "projectPath": "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
+            "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
+              "projectPath": "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
             }
           }
         }

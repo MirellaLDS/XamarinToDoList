@@ -603,11 +603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
       "projectName": "ToDoList",
-      "projectPath": "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+      "projectPath": "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\source\\repos\\ToDoList\\ToDoList\\ToDoList\\obj\\",
+      "outputPath": "C:\\Users\\Pichau\\source\\repos\\XamarinToDoList\\ToDoList\\ToDoList\\ToDoList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

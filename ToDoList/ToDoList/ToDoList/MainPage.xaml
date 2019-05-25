@@ -6,12 +6,10 @@
              x:Class="ToDoList.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-
-        <Entry x:Name="txtTitle" Placeholder="Titulo" />
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+            <Entry x:Name="txtTitle" Placeholder="Titulo" HorizontalOptions="Start" WidthRequest="200" />
+            <Button Text="Cad" Clicked="Cad_Button_Clicked" HorizontalOptions="EndAndExpand" />
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
