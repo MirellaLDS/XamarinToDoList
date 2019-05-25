@@ -1,0 +1,12 @@
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.deps.json
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.dll
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.csprojAssemblyReference.cache
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.AssemblyInfoInputs.cache
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.AssemblyInfo.cs
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.pdb
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.dll
+C:\Users\Pichau\source\repos\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.pdb
