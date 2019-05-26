@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using ToDoList.models;
 using Xamarin.Forms;
 
@@ -25,7 +26,7 @@ namespace ToDoList
             Navigation.PushAsync(new cadTask());
         }
 
-        void CarregarLista()
+        private void CarregarLista()
         {
             var tbTask = App.DB.Table<TaskModel>();
             List<TaskModel> listaResultado = (from task in tbTask
@@ -38,6 +39,12 @@ namespace ToDoList
         {
             var item = e.Item as TaskModel;
             Navigation.PushAsync(new ViewDetailTask(item));
+        }
+
+        protected void ListItems_Refreshing(object sender, EventArgs e)
+        {
+            CarregarLista();
+            listaContatos.EndRefresh();
         }
     }
 
