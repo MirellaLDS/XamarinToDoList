@@ -22,6 +22,7 @@
                         VerticalOptions="End"
                         HorizontalOptions="FillAndExpand" />
             <Button x:Name="cadtask"
+                    Text="Cadastrar"
                     VerticalOptions="End"
                     HorizontalOptions="FillAndExpand"
                     Clicked="Cadtask_Clicked"/>

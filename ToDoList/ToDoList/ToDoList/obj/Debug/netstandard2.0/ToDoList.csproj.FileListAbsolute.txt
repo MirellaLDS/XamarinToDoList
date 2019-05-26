@@ -23,3 +23,4 @@ C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debu
 C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.dll
 C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.pdb
 C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\cadTask.xaml.g.cs
+C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ViewDetailTask.xaml.g.cs

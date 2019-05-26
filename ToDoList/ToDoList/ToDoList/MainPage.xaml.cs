@@ -32,9 +32,13 @@ namespace ToDoList
                                               orderby task.Title
                                               select task).ToList();
             listaContatos.ItemsSource = listaResultado;
-
         }
 
+        private void ListaContatos_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var item = e.Item as TaskModel;
+            Navigation.PushAsync(new ViewDetailTask(item));
+        }
     }
 
 }

@@ -20,13 +20,13 @@ namespace ToDoList {
         private global::Xamarin.Forms.Label OpenTask;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView listaContatos;
+        private global::ToDoList.ClickItemList listaContatos;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
             OpenTask = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "OpenTask");
-            listaContatos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listaContatos");
+            listaContatos = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ToDoList.ClickItemList>(this, "listaContatos");
         }
     }
 }

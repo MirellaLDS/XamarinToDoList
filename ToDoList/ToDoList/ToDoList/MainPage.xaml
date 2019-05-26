@@ -21,7 +21,10 @@
                        HorizontalOptions="Center"/>
             </StackLayout>
         </Frame>
-        <ListView x:Name="listaContatos" HasUnevenRows="true">
+        <local:ClickItemList x:Name="listaContatos" 
+                             HasUnevenRows="true" 
+                             ItemClickCommand="itemClick"
+                             ItemTapped="ListaContatos_ItemTapped">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -37,7 +40,7 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>
+        </local:ClickItemList>
     </StackLayout>
 
 </ContentPage>
