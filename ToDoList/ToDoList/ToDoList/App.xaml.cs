@@ -20,17 +20,18 @@ namespace ToDoList
                     string dbName = "toDoList.db3";
                     string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
                     database = new SQLiteConnection(Path.Combine(path, dbName));
-                    database.CreateTable<Task>();
+                    database.CreateTable<TaskModel>();
                 }
                 return database;
             }
         }
 
+        [Obsolete]
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

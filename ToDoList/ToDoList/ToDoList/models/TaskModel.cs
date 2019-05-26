@@ -5,8 +5,8 @@ using System.Text;
 
 namespace ToDoList.models
 {
-    [Table("Task")]
-    class Task
+    [Table("TaskModel")]
+    public class TaskModel
     {
         [PrimaryKey(), AutoIncrement()]
         public int Id { get; set; }
@@ -19,5 +19,10 @@ namespace ToDoList.models
 
         [Column("endDate")]
         public string EndDate { get; set; }
+
+        public override string ToString()
+        {
+            return Title;
+        }
     }
 }

@@ -3,13 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ToDoList"
              Padding="16"
+             BackgroundImage="bgi.jpg"
              x:Class="ToDoList.MainPage">
 
     <StackLayout>
-        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
-            <Entry x:Name="txtTitle" Placeholder="Titulo" HorizontalOptions="Start" WidthRequest="200" />
-            <Button Text="Cad" Clicked="Cad_Button_Clicked" HorizontalOptions="EndAndExpand" />
-        </StackLayout>
+        <Frame CornerRadius="10"  
+               BackgroundColor="Transparent"
+               OutlineColor="White" 
+               Padding="0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <Image Source="targuet.png" />
+                <Label x:Name="OpenTask" 
+                       Text="Open new taks" 
+                       TextColor="White" 
+                       FontSize="Large"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+        <ListView x:Name="listaContatos" HasUnevenRows="true">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Title}" 
+                                    FontAttributes="Bold" 
+                                   FontSize="Large"
+                                   TextColor="White"
+                                   HorizontalOptions="FillAndExpand"/>
+                            <Label Text="{Binding EndDate}"
+                                   TextColor="White"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 
 </ContentPage>
