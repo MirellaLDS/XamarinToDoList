@@ -19,6 +19,16 @@ namespace ToDoList
             InitializeComponent();
             OpenTask.GestureRecognizers.Add(new TapGestureRecognizer((view) => Start_cad_Clicked()));
             CarregarLista();
+
+            if (Application.Current.Properties.ContainsKey("Titulo"))
+            {
+                lbTitle.Text = "Olá novamente";
+            }
+            else
+            {
+                lbTitle.Text = "Bem vindo(a)";
+                Application.Current.Properties.Add("Titulo", "Olá novamente");
+            }
         }
 
         private void Start_cad_Clicked()

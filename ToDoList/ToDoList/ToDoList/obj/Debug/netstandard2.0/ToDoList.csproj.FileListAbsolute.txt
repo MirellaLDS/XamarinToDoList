@@ -24,3 +24,17 @@ C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debu
 C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.pdb
 C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\cadTask.xaml.g.cs
 C:\Users\Pichau\source\repos\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ViewDetailTask.xaml.g.cs
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.deps.json
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.dll
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.pdb
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.csprojAssemblyReference.cache
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\cadTask.xaml.g.cs
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ViewDetailTask.xaml.g.cs
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.csproj.CoreCompileInputs.cache
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.AssemblyInfoInputs.cache
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.AssemblyInfo.cs
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.dll
+C:\Users\Eriberto\git\XamarinToDoList\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.pdb
