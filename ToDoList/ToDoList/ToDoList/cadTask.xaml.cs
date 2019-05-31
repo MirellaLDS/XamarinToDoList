@@ -35,6 +35,36 @@ namespace ToDoList
         private void DatePiker_DateSelected(object sender, DateChangedEventArgs e)
         {
             data = e.NewDate.Day + "/" + e.NewDate.Month + "/" + e.NewDate.Year;
+            saveInstantState();
+        }
+
+        void changeTextoTitle(object sender, TextChangedEventArgs e)
+        {
+            saveInstantState();
+
+        }
+
+        void changeTextoDescription(object sender, TextChangedEventArgs e)
+        {
+            saveInstantState();
+
+        }
+
+        void saveInstantState()
+        {           
+            Application.Current.Properties["Title"] = title.Text;
+            Application.Current.Properties["Description"] = description.Text;
+            Application.Current.Properties["EndDate"] = data;
+
+            Application.Current.SavePropertiesAsync();
+
+        }
+
+        void limparDados()
+        {
+            Application.Current.Properties["Title"] = null;
+            Application.Current.Properties["Description"] = null;
+            Application.Current.Properties["EndDate"] = null;
         }
 
     }

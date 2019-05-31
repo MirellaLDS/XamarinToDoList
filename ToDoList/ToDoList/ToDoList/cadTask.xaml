@@ -11,9 +11,11 @@
         <StackLayout Spacing="10" BackgroundColor="White" >
             <Entry x:Name="title" Placeholder="Título" 
                    VerticalOptions="Start" 
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="FillAndExpand"
+                   TextChanged="changeTextoTitle"/>
             <Entry x:Name="description" Placeholder="Descrição" 
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="FillAndExpand"
+                   TextChanged="changeTextoDescription"/>
             <DatePicker x:Name="datePiker"
                         MinimumDate="01/01/1970" 
                         MaximumDate="01/01/2100"
