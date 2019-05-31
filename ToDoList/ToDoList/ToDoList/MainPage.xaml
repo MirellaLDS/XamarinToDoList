@@ -7,6 +7,11 @@
              x:Class="ToDoList.MainPage">
 
     <StackLayout>
+        <Label x:Name="lbTitle"
+               TextColor="White"
+               Text="Oi"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="Large"/>
         <Frame CornerRadius="10"  
                BackgroundColor="Transparent"
                OutlineColor="White" 
