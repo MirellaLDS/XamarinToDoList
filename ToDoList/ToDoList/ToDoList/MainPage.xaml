@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ToDoList"
@@ -18,7 +18,11 @@
                        TextColor="White" 
                        FontSize="Large"
                        VerticalOptions="Center"
-                       HorizontalOptions="Center"/>
+                       HorizontalOptions="Center">
+                    <Label.TextColor>
+                        <OnPlatform x:TypeArguments="Color" Android="Black" />
+                    </Label.TextColor>
+                </Label>
             </StackLayout>
         </Frame>
         <ListView x:Name="listaContatos" 
@@ -35,9 +39,18 @@
                                     FontAttributes="Bold" 
                                    FontSize="Large"
                                    TextColor="White"
-                                   HorizontalOptions="FillAndExpand"/>
+                                   HorizontalOptions="FillAndExpand">
+                                <Label.TextColor>
+                                    <OnPlatform x:TypeArguments="Color" Android="Black" />
+                                </Label.TextColor>
+                            </Label>
                             <Label Text="{Binding EndDate}"
-                                   TextColor="White"/>
+                                   TextColor="White">
+                                <Label.TextColor>
+                                    <OnPlatform x:TypeArguments="Color" Android="Black" />
+                                </Label.TextColor>
+                            </Label>
+                            <Button Text="pop" Clicked="DeleteClicked" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

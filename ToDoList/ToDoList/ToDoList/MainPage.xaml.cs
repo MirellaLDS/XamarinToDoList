@@ -46,6 +46,28 @@ namespace ToDoList
             CarregarLista();
             listaContatos.EndRefresh();
         }
+
+        protected override void OnAppearing()
+        {
+            CarregarLista();
+
+        }
+
+        async void DeleteClicked(object sender, System.EventArgs e)
+        {
+            Button bt = (Button)sender;
+            TaskModel task = (TaskModel)bt.BindingContext;
+
+            var resposta = await DisplayAlert("Remover", "Tem certeza que vai remover "
+                + task.Title + "?", "Sim", "Não");
+
+            if (resposta)
+            {
+                App.DB.Delete(task);
+
+                CarregarLista();
+            }
+        }
     }
 
 }
